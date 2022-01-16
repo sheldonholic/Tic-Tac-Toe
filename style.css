@@ -1,0 +1,67 @@
+body {
+    font-family: "Arial", sans-serif;
+    background-image:linear-gradient(35deg , #fae5df,#f5cac2,#ed7966);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+}
+
+section {
+    text-align: center;
+}
+section > h1{
+    font-size: 2rem;
+    color: #303179;
+    text-shadow: #141850;
+}
+.game--title {
+    /*font-size: 100px;
+    color: #d7a62f;*/
+    margin: 10px auto;
+    font-size: 4rem;
+    color: #303179;
+    text-shadow: #141850;
+}
+.container{
+    background-color: rgb(255, 255, 255);
+    width: fit-content;
+    padding: 3rem;
+    border-radius: 30px;
+}
+.game--container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 10px auto;
+    background-color: #ffffff;
+    color: #141850;
+}
+
+.cell {
+    font-family: "Permanent Marker", cursive;
+    width: 100px;
+    height: 100px;
+    /*box-shadow: 2px 2px 2px 2px #f107f1;*/
+    /*border: 2px solid #f107f1;*/
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px;
+}
+
+.game--status {
+    font-size: 50px;
+    color: #303179;
+    margin: 20px auto;
+}
+
+.game--restart {
+    background-color: #303179;
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    color: #ffffff;
+    box-shadow: 2px 2px 2px 2px #141850;
+    border: 2px solid #141850;
+}
+ 
